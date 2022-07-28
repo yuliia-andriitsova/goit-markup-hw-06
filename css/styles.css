@@ -919,6 +919,11 @@
 	background-position: center;
 }
 
+.form-info {
+	display: block;
+	height: 50%;
+}
+
 /* .check-icon {
 	display: inline-block;
 	width: 16px;

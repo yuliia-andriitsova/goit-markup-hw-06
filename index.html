@@ -17,7 +17,7 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
-		<linl rel="stylesheet" href= "./css/main.min.css"/>
+		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
 	<body class="body">
 		<header class="navigation">
@@ -409,7 +409,7 @@
 						</form>
 						<button type="submit" class="button for-footer">
 							Подписаться
-							<svg class="icon-for-footer"><use href="./images/icons.svg#icon-send"></use></svg>
+							<svg class="icon-for-footer"><use href="./images/symbol-defs.svg#icon-send"></use></svg>
 						</button>
 					</div>
 				</div>
@@ -421,13 +421,15 @@
 					<svg class="modal-close-icon"><use href="./images/symbol-defs.svg#icon-vector"></use></svg>
 				</button>
 				<section class="form">
-					<h2 class="title-form">Оставьте свои данные, мы вам перезвоним</h2>
+					<h2 class="title-form"><span class="form-info">Оставьте свои данные, мы вам перезвоним</span></h2>
 					<form class="online-form">
 						<div class="form-field">
 							<label class="form-label" for="name">Имя</label>
 							<div class="input-wrap">
 								<input class="form-input" type="text" name="name" id="name" required />
-								<svg class="input-icon" width="12" height="12"><use href="./images/icons.svg#icon-man"></use></svg>
+								<svg class="input-icon" width="12" height="12">
+									<use href="./images/symbol-defs.svg#icon-man"></use>
+								</svg>
 							</div>
 						</div>
 
@@ -436,7 +438,7 @@
 							<div class="input-wrap">
 								<input class="form-input" type="tel" name="tel" id="tel" required />
 								<svg class="input-icon" width="12" height="12">
-									<use href="./images/icons.svg#icon-telephone"></use>
+									<use href="./images/symbol-defs.svg#icon-telephone"></use>
 								</svg>
 							</div>
 						</div>
@@ -444,7 +446,9 @@
 							<label class="form-label" for="email">Почта</label>
 							<div class="input-wrap">
 								<input class="form-input" type="email" name="email" id="email" required />
-								<svg class="input-icon" width="12" height="12"><use href="./images/icons.svg#icon-mail"></use></svg>
+								<svg class="input-icon" width="12" height="12">
+									<use href="./images/symbol-defs.svg#icon-mail"></use>
+								</svg>
 							</div>
 						</div>
 						<div class="form-field">
@@ -455,7 +459,7 @@
 						<div class="form-field policy">
 							<input class="checkbox-policy visually-hidden" type="checkbox" name="policy" id="policy" value="true" />
 							<label class="label-policy" for="policy">
-								Соглашаюсь с рассылкой и принимаю &#160
+								Соглашаюсь с рассылкой и принимаю &#160;
 								<a href="">Условия договора</a>
 							</label>
 						</div>
